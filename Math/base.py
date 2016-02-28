@@ -35,5 +35,4 @@ def main():
 	x=int(raw_input("What would you like x to be? "))
 	for i in range(-x,x+1):
 		print "The base -1+i representation of", i , "is", baseimaginary(i)
-main()			
-
+main()

@@ -1,1 +1,10 @@
-Python programs.  Contents include:  Math programs, Useful programs, Linear Algebra programs.  
+Python programs by Justin Stevens
+=============
+Contents include:
+Math Programs
+--------
+Useful Programs
+--------
+Linear Algebra
+---------
+From the class https://www.coursera.org/course/matrix
