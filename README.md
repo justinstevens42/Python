@@ -1,4 +1,4 @@
-Python programs by Justin Stevens
+Python programs 
 =============
 Contents include:
 
