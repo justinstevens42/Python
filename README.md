@@ -7,4 +7,3 @@ Useful Programs
 --------
 Linear Algebra
 ---------
-From the class https://www.coursera.org/course/matrix
