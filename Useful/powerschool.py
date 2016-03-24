@@ -13,7 +13,7 @@ def ask_yes_no(question):
     	response=raw_input(question).lower()
    	return response
 def main():
-	g=open(****CLASSNAME <-MODIFY THIS****, 'r')
+	g=open('english', 'r')
 	d={}
 	g.seek(0)
 	d=g.readlines()
@@ -23,7 +23,7 @@ def main():
 	Points_Received=Dictlist()
 	Points_Total=Dictlist()
 	for i in range(len(d)):
-	
+
 		#all of this is weird formatting stuff and can be ignored
 		sep='/'
 		sep2='\t'
@@ -50,14 +50,14 @@ def main():
 		for key in Points_Total:
 			print "What fraction of your grade is",key,"? (enter a decimal)"
 			r=float(raw_input(""))
-			
-			Weighting[key]=r 
+
+			Weighting[key]=r
 		Final_Grade=0
 		for key in Points_Total:
 			print "The grade you currently have for",key,"(",100*Weighting[key],"%) is",round(Category_PR[key],3), "/", Category_PT[key], "or",  Category_PR[key]/Category_PT[key]
 			Final_Grade=Final_Grade+100*Weighting[key]*Category_PR[key]/Category_PT[key]
 		print "\n"
-		print "Your total grade in the class is currently ", Final_Grade 
+		print "Your total grade in the class is currently ", Final_Grade
 	if response=='n':
 		Total_PR=0
 		Total_PT=0
